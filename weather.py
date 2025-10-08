@@ -39,6 +39,7 @@ win.config(bg="#87CEEB")  # Sky blu
 
 name_label = Label(win,text="Weather App",font=("Time New Roman",30,"bold"))
 name_label.place(x=25,y=50,height=50,width=450)
+name_label.config(bg="#87CEEB", fg="black")
 
 city_name=StringVar()
 
