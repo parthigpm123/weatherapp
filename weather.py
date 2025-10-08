@@ -34,12 +34,12 @@ win = Tk()
 win.title("Weather App")
 win.config(bg = "blue")
 win.geometry("500x570")
-win.config(bg="#87CEEB")  # Sky blu
+win.config(bg="#17AFEB")  # Sky blu
 
 
 name_label = Label(win,text="Weather App",font=("Time New Roman",30,"bold"))
 name_label.place(x=25,y=50,height=50,width=450)
-name_label.config(bg="#87CEEB", fg="black")
+name_label.config(bg="#2DACDF", fg="black")
 
 city_name=StringVar()
 
